@@ -1,0 +1,375 @@
+[
+  {
+    "package_name": "Nova (Dish) - 150 Naira - 1 Day",
+    "package_amount": 148.5,
+    "package_original_amount": 150,
+    "package_api_code": "nova-dish-daily",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Nova (Antenna) - 150 Naira - 1 Day",
+    "package_amount": 148.5,
+    "package_original_amount": 150,
+    "package_api_code": "nova-daily",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Classic (Antenna) - 400 Naira - 1 Day",
+    "package_amount": 316.8,
+    "package_original_amount": 320,
+    "package_api_code": "classic-daily",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Smart (Dish) - 350 Naira - 1 Day",
+    "package_amount": 346.5,
+    "package_original_amount": 350,
+    "package_api_code": "smart-daily",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Unique - 380 Daily",
+    "package_amount": 376.2,
+    "package_original_amount": 380,
+    "package_api_code": "unique-daily",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Special (Dish) - 500 Naira - 1 Day",
+    "package_amount": 495,
+    "package_original_amount": 500,
+    "package_api_code": "special-daily",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Super (Dish) - 600 Naira - 1 Day",
+    "package_amount": 594,
+    "package_original_amount": 600,
+    "package_api_code": "super-daily",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Nova (Dish) - 700 Naira - 1 Week",
+    "package_amount": 693,
+    "package_original_amount": 700,
+    "package_api_code": "nova-dish-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Nova (Antenna) - 700 Naira - 1 Week",
+    "package_amount": 693,
+    "package_original_amount": 700,
+    "package_api_code": "nova-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Combo Smart and Basic (Dish) - 1,300 Naira - 1 Week",
+    "package_amount": 1287,
+    "package_original_amount": 1300,
+    "package_api_code": "combo-smart-basic-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Basic (Antenna) - 1400 Naira - 1 Week",
+    "package_amount": 1386,
+    "package_original_amount": 1400,
+    "package_api_code": "basic-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Basic (Dish) - 1,700 Naira - 1 Week",
+    "package_amount": 1683,
+    "package_original_amount": 1700,
+    "package_api_code": "smart-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Combo Special and Basic (Dish) - 1,800 Naira - 1 Week",
+    "package_amount": 1782,
+    "package_original_amount": 1800,
+    "package_api_code": "combo-special-basic-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Classic (Antenna) - 2000 Naira - 1 Week",
+    "package_amount": 1980,
+    "package_original_amount": 2000,
+    "package_api_code": "classic-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Nova (Dish) - 2100 Naira - 1 Month",
+    "package_amount": 2079,
+    "package_original_amount": 2100,
+    "package_api_code": "nova",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Nova (Antenna) - 2,100 Naira - 1 Month",
+    "package_amount": 2079,
+    "package_original_amount": 2100,
+    "package_api_code": "uni-2",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Classic (Dish) - 2300 Naira - 1 Week",
+    "package_amount": 2277,
+    "package_original_amount": 2300,
+    "package_api_code": "special-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Combo Super and Classic (Dish) - 2,500 Naira - 1 Week",
+    "package_amount": 2475,
+    "package_original_amount": 2500,
+    "package_api_code": "combo-super-classic--weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Classic (Dish) - 2500 Naira - 1 Week",
+    "package_amount": 2475,
+    "package_original_amount": 2500,
+    "package_api_code": "classic-weekly-dish",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 2,800 Naira - Weekly",
+    "package_amount": 2772,
+    "package_original_amount": 2800,
+    "package_api_code": "shs-weekly-2800",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes (Lagos and Abuja only) - N3,000 - 90 days",
+    "package_amount": 2970,
+    "package_original_amount": 3000,
+    "package_api_code": "lagos-abuja-90",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes - N3,000 - 90 days",
+    "package_amount": 2970,
+    "package_original_amount": 3000,
+    "package_api_code": "ddt-mini-90",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Nova (Dish) - 3,000 Naira - 2 Months",
+    "package_amount": 2970,
+    "package_original_amount": 3000,
+    "package_api_code": "nove-dish-2months",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Nova (Antenna) - 3,000 Naira - 1 Months",
+    "package_amount": 2970,
+    "package_original_amount": 3000,
+    "package_api_code": "nove-antenna-2months",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Super (Antenna) - 3,200 Naira - 1 Week",
+    "package_amount": 3168,
+    "package_original_amount": 3200,
+    "package_api_code": "super-antenna-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Super (Dish) - 3,300 Naira - 1 Week",
+    "package_amount": 3267,
+    "package_original_amount": 3300,
+    "package_api_code": "super-weekly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Unique - 3,800 Naira",
+    "package_amount": 3762,
+    "package_original_amount": 3800,
+    "package_api_code": "unique",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Combo Smart and Basic (Dish) - 3,800 Naira - 1 Month",
+    "package_amount": 3762,
+    "package_original_amount": 3800,
+    "package_api_code": "combo-smart-basic-monthly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Unique - 380 Daily",
+    "package_amount": 3764.97,
+    "package_original_amount": 3803,
+    "package_api_code": "uni-3",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Basic (Antenna) - 4,000 Naira - 1 Month",
+    "package_amount": 3960,
+    "package_original_amount": 4000,
+    "package_api_code": "basic",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 4,620 Naira - Weekly",
+    "package_amount": 4573.8,
+    "package_original_amount": 4620,
+    "package_api_code": "shs-weekly-4620",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 4,900 Naira - Weekly",
+    "package_amount": 4851,
+    "package_original_amount": 4900,
+    "package_api_code": "shs-weekly-4900",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Basic (Dish) - 5,100 Naira - 1 Month",
+    "package_amount": 5049,
+    "package_original_amount": 5100,
+    "package_api_code": "smart",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Basic (Antenna) - 5,200 Naira - 2 Months",
+    "package_amount": 5148,
+    "package_original_amount": 5200,
+    "package_api_code": "basic-antenna-2months",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Combo Special and Basic (Dish) - 5,600 Naira - 1 Month",
+    "package_amount": 5544,
+    "package_original_amount": 5600,
+    "package_api_code": "combo-special-basic-monthly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "French (Dish) - 6,600 Naira - 1 month",
+    "package_amount": 5940,
+    "package_original_amount": 6000,
+    "package_api_code": "uni-4",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Classic (Antenna) - 6000 Naira - 1 Month",
+    "package_amount": 5940,
+    "package_original_amount": 6000,
+    "package_api_code": "classic",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Smart (Dish) - 7,000 Naira - 2 Months",
+    "package_amount": 6930,
+    "package_original_amount": 7000,
+    "package_api_code": "smart-dish-2months",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Global (Dish) - 7000 Naira - 1Week",
+    "package_amount": 6930,
+    "package_original_amount": 7000,
+    "package_api_code": "global-weekly-dish",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Classic (Dish) - 7400 Naira - 1 Month",
+    "package_amount": 7326,
+    "package_original_amount": 7400,
+    "package_api_code": "special-monthly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Combo Super and Classic (Dish) - 7,500 Naira - 1 Month",
+    "package_amount": 7425,
+    "package_original_amount": 7500,
+    "package_api_code": "combo-super-classic--monthly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Classic (Antenna) - 7,600 Naira - 2 Months",
+    "package_amount": 7524,
+    "package_original_amount": 7600,
+    "package_api_code": "classic-antenna-2months",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 9,100 Naira - Weekly",
+    "package_amount": 9009,
+    "package_original_amount": 9100,
+    "package_api_code": "shs-weekly-9100",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Super (Antenna) - 9,500 Naira - 1 Month",
+    "package_amount": 9405,
+    "package_original_amount": 9500,
+    "package_api_code": "super-antenna-monthly",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Super (Dish) - 9,800 Naira - 1 Month",
+    "package_amount": 9702,
+    "package_original_amount": 9800,
+    "package_api_code": "super",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Special (Dish) - 10,000 Naira - 2 Months",
+    "package_amount": 9900,
+    "package_original_amount": 10000,
+    "package_api_code": "special-dish-2months",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 12,000 Naira - Monthly",
+    "package_amount": 11880,
+    "package_original_amount": 12000,
+    "package_api_code": "shs-monthly-12000",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Super (Dish) - 13,000 Naira - 2 Months",
+    "package_amount": 12870,
+    "package_original_amount": 13000,
+    "package_api_code": "super-dish-2months",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 19,800 Naira - Monthly",
+    "package_amount": 19602,
+    "package_original_amount": 19800,
+    "package_api_code": "shs-monthly-19800",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Chinese (Dish) - 21,000 Naira - 1 month",
+    "package_amount": 20790,
+    "package_original_amount": 21000,
+    "package_api_code": "uni-1",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Global (Dish) - 21000 Naira - 1 Month",
+    "package_amount": 20790,
+    "package_original_amount": 21000,
+    "package_api_code": "global-monthly-dish",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 21,000 Naira - Monthly",
+    "package_amount": 20790,
+    "package_original_amount": 21000,
+    "package_api_code": "shs-monthly-21000",
+    "provider_code": "startimes"
+  },
+  {
+    "package_name": "Startimes SHS - 39,000 Naira - Monthly",
+    "package_amount": 38610,
+    "package_original_amount": 39000,
+    "package_api_code": "shs-monthly-39000",
+    "provider_code": "startimes"
+  }
+]
+
+// startimes 01467197046, Dstv 7030502299

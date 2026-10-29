@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.eslintcache
+src/app/assets/css/black-dashboard-react.css
+src/app/assets/css/black-dashboard-react.min.css
+src/app/assets/css/nucleo-icons.css
+src/app/assets/css/styles.css

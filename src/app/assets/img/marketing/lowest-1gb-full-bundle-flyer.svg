@@ -1,0 +1,100 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="0" x2="1000" y2="1350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061225"/>
+      <stop offset="0.45" stop-color="#0C2347"/>
+      <stop offset="1" stop-color="#0E4AA8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="210" y1="150" x2="850" y2="1210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5DE0FF"/>
+      <stop offset="1" stop-color="#4CFFB8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="286" y1="312" x2="826" y2="1020" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(722 420) rotate(90) scale(420 420)">
+      <stop stop-color="#5DE0FF" stop-opacity="0.28"/>
+      <stop offset="0.52" stop-color="#4CFFB8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#4CFFB8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#02101F" flood-opacity="0.45"/>
+    </filter>
+    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+
+  <circle cx="910" cy="175" r="160" fill="#4CFFB8" fill-opacity="0.12" filter="url(#softBlur)"/>
+  <circle cx="165" cy="1135" r="210" fill="#5DE0FF" fill-opacity="0.14" filter="url(#softBlur)"/>
+  <circle cx="860" cy="1040" r="260" fill="#5DE0FF" fill-opacity="0.08" filter="url(#softBlur)"/>
+  <circle cx="735" cy="440" r="350" fill="url(#glow)"/>
+
+  <path d="M-20 250C180 180 340 140 540 154C746 168 890 236 1100 152V0H-20V250Z" fill="#FFFFFF" fill-opacity="0.04"/>
+  <path d="M-20 1180C160 1100 320 1070 540 1086C760 1102 910 1162 1100 1110V1350H-20V1180Z" fill="#FFFFFF" fill-opacity="0.04"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="68" width="936" height="1214" rx="42" fill="#07192F" fill-opacity="0.42" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  </g>
+
+  <g transform="translate(110 116)">
+    <rect x="0" y="0" width="220" height="64" rx="32" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <circle cx="38" cy="32" r="22" fill="url(#accent)"/>
+    <path d="M28 41V22H34.5L41 31.5V22H47V42H40.5L34 32.5V41H28Z" fill="#FFFFFF"/>
+    <text x="72" y="39" fill="#F5FBFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="0.08em">KUKU DATA</text>
+  </g>
+
+  <g transform="translate(790 116)">
+    <rect x="0" y="0" width="180" height="64" rx="32" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="90" y="39" text-anchor="middle" fill="#EAF4FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="0.08em">FULL BUNDLE</text>
+  </g>
+
+  <g transform="translate(110 238)">
+    <text x="0" y="0" fill="#A9D4FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="0.18em">LIMITED OFFER</text>
+    <text x="0" y="92" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="-0.03em">LOWEST 1GB</text>
+    <text x="0" y="166" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="-0.03em">FULL BUNDLE</text>
+    <text x="0" y="226" fill="#D9ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">A clean, affordable bundle for everyday browsing.</text>
+  </g>
+
+  <g transform="translate(662 278)" filter="url(#shadow)">
+    <rect x="0" y="0" width="294" height="320" rx="34" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <circle cx="147" cy="126" r="96" fill="url(#accent)" fill-opacity="0.18"/>
+    <circle cx="147" cy="126" r="72" fill="#081A31" fill-opacity="0.72" stroke="#6EE7FF" stroke-opacity="0.35" stroke-width="2"/>
+    <text x="147" y="118" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="900">1GB</text>
+    <text x="147" y="160" text-anchor="middle" fill="#B8F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="0.28em">FULL BUNDLE</text>
+    <rect x="48" y="230" width="198" height="54" rx="27" fill="#FFFFFF" fill-opacity="0.12"/>
+    <text x="147" y="264" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Best value for light users</text>
+  </g>
+
+  <g transform="translate(110 660)">
+    <rect x="0" y="0" width="860" height="150" rx="30" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <g transform="translate(44 34)">
+      <rect x="0" y="0" width="352" height="82" rx="22" fill="#081A31" fill-opacity="0.56" stroke="#5DE0FF" stroke-opacity="0.22"/>
+      <text x="176" y="33" text-anchor="middle" fill="#5DE0FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="900" letter-spacing="0.08em">0%</text>
+      <text x="176" y="61" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Wallet Funding</text>
+    </g>
+    <g transform="translate(464 34)">
+      <rect x="0" y="0" width="352" height="82" rx="22" fill="#081A31" fill-opacity="0.56" stroke="#4CFFB8" stroke-opacity="0.22"/>
+      <text x="176" y="33" text-anchor="middle" fill="#4CFFB8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="900" letter-spacing="0.08em">0%</text>
+      <text x="176" y="61" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Transaction Fee</text>
+    </g>
+  </g>
+
+  <g transform="translate(110 860)">
+    <rect x="0" y="0" width="860" height="156" rx="28" fill="#0A1E3D" fill-opacity="0.55" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="38" y="58" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Why this bundle?</text>
+    <text x="38" y="102" fill="#D9ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Simple checkout, no hidden charges, and a smooth wallet experience.</text>
+    <text x="38" y="132" fill="#D9ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Perfect for data users who want a low-entry bundle that still feels premium.</text>
+  </g>
+
+  <g transform="translate(110 1090)">
+    <rect x="0" y="0" width="860" height="92" rx="24" fill="url(#accent)" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="430" y="58" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900" letter-spacing="0.04em">0% WALLET FUNDING  •  0% TRANSACTION FEE</text>
+  </g>
+
+  <text x="540" y="1248" text-anchor="middle" fill="#C9E6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Kuku Data - fast, simple, and affordable mobile data</text>
+  <text x="540" y="1285" text-anchor="middle" fill="#8BB9E8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">Flyer concept for the lowest 1GB full bundle</text>
+</svg>

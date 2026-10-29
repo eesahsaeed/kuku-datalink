@@ -1,0 +1,23 @@
+{
+  "Event": "charge_successful",
+  "TransactionRef": "SQKUKU6390305384245100012",
+  "Body": {
+    "amount": 500000,
+    "transaction_ref": "SQKUKU6390305384245100012",
+    "gateway_ref": "SQKUKU6390305384245100012_1_18_1",
+    "transaction_status": "Success",
+    "email": "kukudata01@gmail.com",
+    "merchant_id": "SBZ5JPGWM5",
+    "currency": "NGN",
+    "transaction_type": "Card",
+    "merchant_amount": 495000,
+    "created_at": "2026-01-03T17:17:22.468",
+    "meta": {},
+    "payment_information": {
+      "payment_type": "card",
+      "pan": "424242******4242|0126",
+      "card_type": "verve"
+    },
+    "is_recurring": false
+  }
+}

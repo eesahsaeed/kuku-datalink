@@ -1,0 +1,10 @@
+Your optimization guide for the **Kuku** app is ready.
+
+[file-tag: code-generated-file-0-1777530626526064823]
+
+### **Summary of the Guide:**
+* **The Monolith Setup:** Instead of two services (React + Express), I've detailed how to bundle React into your Express `public` folder. This bypasses the Render bandwidth limit and makes the most of the WebHostMost 125MB storage.
+* **Socket.io Persistence:** By using WebHostMost, you lose the 30-second "cold start" delay that Render has. Your sockets will connect instantly when your teacher/user opens the site.
+* **Custom Domain:** I've included the specific nameserver and SSL steps to ensure you get that "Netlify-style" HTTPS setup for free.
+
+If you have any trouble during the manual upload or the Node.js setup in the dashboard, let me know!

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electricity Token Receipt</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+    "
+  >
+    <table
+      role="presentation"
+      width="100%"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      style="background-color: #f4f4f4; padding: 20px 0"
+    >
+      <tr>
+        <td align="center">
+          <table
+            role="presentation"
+            width="600"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            style="
+              background-color: #ffffff;
+              border-radius: 8px;
+              overflow: hidden;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <!-- Header -->
+            <tr>
+              <td
+                style="
+                  background-color: #2a6ef6;
+                  padding: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                "
+              >
+                <h1
+                  style="margin: 0; font-size: 24px; text-transform: uppercase"
+                >
+                  Payment Receipt
+                </h1>
+                <p style="margin: 5px 0 0 0; opacity: 0.8">
+                  Electricity Token Purchase
+                </p>
+              </td>
+            </tr>
+
+            <!-- Token Box -->
+            <tr>
+              <td style="padding: 30px; text-align: center">
+                <div
+                  style="
+                    background-color: #f9f9f9;
+                    border: 2px dashed #2a6ef6;
+                    padding: 20px;
+                    border-radius: 10px;
+                  "
+                >
+                  <span
+                    style="
+                      display: block;
+                      font-size: 14px;
+                      color: #666;
+                      margin-bottom: 10px;
+                      text-transform: uppercase;
+                      letter-spacing: 1px;
+                    "
+                    >Your Prepaid Token</span
+                  >
+                  <h2
+                    style="
+                      margin: 0;
+                      font-size: 32px;
+                      color: #2a6ef6;
+                      letter-spacing: 4px;
+                    "
+                  >
+                    {{token_number}}
+                  </h2>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Details Table -->
+            <tr>
+              <td style="padding: 0 30px 30px 30px">
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                  style="border-top: 1px solid #eeeeee"
+                >
+                  <tr>
+                    <td style="padding: 12px 0; color: #777; font-size: 14px">
+                      Customer Name:
+                    </td>
+                    <td
+                      style="
+                        padding: 12px 0;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: right;
+                      "
+                    >
+                      {{customer_name}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 12px 0; color: #777; font-size: 14px">
+                      Meter Number:
+                    </td>
+                    <td
+                      style="
+                        padding: 12px 0;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: right;
+                      "
+                    >
+                      {{meter_number}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 12px 0; color: #777; font-size: 14px">
+                      Amount Paid:
+                    </td>
+                    <td
+                      style="
+                        padding: 12px 0;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: right;
+                      "
+                    >
+                      ₦{{amount}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 12px 0; color: #777; font-size: 14px">
+                      Units Received:
+                    </td>
+                    <td
+                      style="
+                        padding: 12px 0;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: right;
+                      "
+                    >
+                      {{units}} kWh
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 12px 0; color: #777; font-size: 14px">
+                      Transaction Date:
+                    </td>
+                    <td
+                      style="
+                        padding: 12px 0;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: right;
+                      "
+                    >
+                      {{date}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 12px 0; color: #777; font-size: 14px">
+                      Transaction Reference:
+                    </td>
+                    <td
+                      style="
+                        padding: 12px 0;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: right;
+                      "
+                    >
+                      {{reference}}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                style="
+                  background-color: #eeeeee;
+                  padding: 20px;
+                  text-align: center;
+                  color: #888;
+                  font-size: 12px;
+                "
+              >
+                <p style="margin: 0">Thank you for using our service!</p>
+                <p style="margin: 5px 0 0 0">
+                  For support, contact us at
+                  <a
+                    href="mailto:support@kuku.com.ng"
+                    style="color: #2a6ef6; text-decoration: none"
+                    >support@kuku.com.ng</a
+                  >
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

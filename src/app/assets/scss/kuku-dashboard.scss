@@ -1,0 +1,94 @@
+/*
+ =========================================================
+ * Kuku Dashboard Theme
+ * Adapted from Black Dashboard React v1.2.0 / Black Dashboard v1.2.0
+ =========================================================
+
+ * Original Product Page:
+ * https://www.creative-tim.com/product/black-dashboard-react
+ * Original Copyright 2023 Creative Tim
+ * Licensed under MIT
+ * https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md
+
+ * The original copyright notice and permission notice
+ * remain included in this adapted theme.
+ */
+
+// Core
+
+@import 'kuku-dashboard/custom/functions';
+@import 'node_modules/bootstrap/scss/functions';
+
+@import 'kuku-dashboard/custom/variables';
+@import 'node_modules/bootstrap/scss/variables';
+
+@import 'kuku-dashboard/custom/mixins';
+@import 'node_modules/bootstrap/scss/mixins';
+
+// Bootstrap components
+
+@import 'node_modules/bootstrap/scss/root';
+@import 'node_modules/bootstrap/scss/reboot';
+@import 'node_modules/bootstrap/scss/type';
+@import 'node_modules/bootstrap/scss/images';
+@import 'node_modules/bootstrap/scss/code';
+@import 'node_modules/bootstrap/scss/grid';
+@import 'node_modules/bootstrap/scss/tables';
+@import 'node_modules/bootstrap/scss/forms';
+@import 'node_modules/bootstrap/scss/buttons';
+@import 'node_modules/bootstrap/scss/transitions';
+@import 'node_modules/bootstrap/scss/dropdown';
+@import 'node_modules/bootstrap/scss/button-group';
+@import 'node_modules/bootstrap/scss/input-group';
+@import 'node_modules/bootstrap/scss/custom-forms';
+@import 'node_modules/bootstrap/scss/nav';
+@import 'node_modules/bootstrap/scss/navbar';
+@import 'node_modules/bootstrap/scss/card';
+@import 'node_modules/bootstrap/scss/breadcrumb';
+@import 'node_modules/bootstrap/scss/pagination';
+@import 'node_modules/bootstrap/scss/badge';
+@import 'node_modules/bootstrap/scss/jumbotron';
+@import 'node_modules/bootstrap/scss/alert';
+@import 'node_modules/bootstrap/scss/progress';
+@import 'node_modules/bootstrap/scss/media';
+@import 'node_modules/bootstrap/scss/list-group';
+@import 'node_modules/bootstrap/scss/close';
+@import 'node_modules/bootstrap/scss/modal';
+@import 'node_modules/bootstrap/scss/tooltip';
+@import 'node_modules/bootstrap/scss/popover';
+@import 'node_modules/bootstrap/scss/carousel';
+@import 'node_modules/bootstrap/scss/utilities';
+@import 'node_modules/bootstrap/scss/print';
+
+// Custom components
+
+@import 'kuku-dashboard/custom/alerts.scss';
+@import 'kuku-dashboard/custom/badges.scss';
+@import 'kuku-dashboard/custom/buttons.scss';
+@import 'kuku-dashboard/custom/dropdown.scss';
+@import 'kuku-dashboard/custom/footer.scss';
+@import 'kuku-dashboard/custom/forms.scss';
+@import 'kuku-dashboard/custom/images.scss';
+@import 'kuku-dashboard/custom/modal.scss';
+@import 'kuku-dashboard/custom/navbar.scss';
+@import 'kuku-dashboard/custom/type.scss';
+@import 'kuku-dashboard/custom/tables';
+@import 'kuku-dashboard/custom/checkboxes-radio';
+@import 'kuku-dashboard/custom/sidebar-and-main-panel.scss';
+@import 'kuku-dashboard/custom/misc.scss';
+@import 'kuku-dashboard/custom/input-group.scss';
+
+// light mode
+
+@import 'kuku-dashboard/custom/white-content.scss';
+
+// Cards
+
+@import 'kuku-dashboard/custom/card';
+@import 'kuku-dashboard/custom/cards/card-chart';
+@import 'kuku-dashboard/custom/cards/card-user';
+@import 'kuku-dashboard/custom/cards/card-task';
+@import 'kuku-dashboard/custom/cards/card-plain';
+
+// React differences
+@import 'kuku-dashboard/react-differences/react-differences';

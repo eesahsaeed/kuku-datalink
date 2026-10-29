@@ -1,0 +1,37 @@
+[
+  {
+    "success": true,
+    "message": "success",
+    "data": {
+      "success": true,
+      "message": "Transaction Sent For Processing . N230 MTN Beneficiary :  08069068183",
+      "transaction_data": {
+        "transaction_hash": "202512261854371983694ecbc74946e",
+        "status": "Processing",
+        "amount": 230,
+        "recipient": "08069068183",
+        "amount_paid": 230,
+        "commission": 0,
+        "discount": 0,
+        "password": "Fsw3G3@xAGyRrkC"
+      }
+    }
+  },
+  {
+    "success": true,
+    "message": "success",
+    "data": {
+      "success": true,
+      "message": "Transaction Sent For Processing . N147.75 MTN Beneficiary :  08069068183",
+      "transaction_data": {
+        "transaction_hash": "202512262026371983694ee16d8e87b",
+        "status": "Processing",
+        "amount": 147.75,
+        "recipient": "08069068183",
+        "amount_paid": 147.75,
+        "commission": 1.18,
+        "discount": 0
+      }
+    }
+  }
+]

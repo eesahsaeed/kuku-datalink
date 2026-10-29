@@ -1,0 +1,68 @@
+[
+  {
+    "provider_name": "Glo AWUF",
+    "provider_code": "gloawufdata",
+    "min_amount": 10,
+    "max_amount": 5000,
+    "ref_commission": null,
+    "provider_info": "Dial *127*0# to check data balance",
+    "agent_percent": "2.5",
+    "provider_image": "Glo awuf data icon_11zon.png",
+    "provider_image_url": "https://aidapay.ng/images/panel/providers/Glo awuf data icon_11zon.png"
+  },
+  {
+    "provider_name": "Airtel AWUF",
+    "provider_code": "airtel-awuf-data",
+    "min_amount": 10,
+    "max_amount": 100000,
+    "ref_commission": null,
+    "provider_info": null,
+    "agent_percent": "4",
+    "provider_image": "Airtel Awuf data_11zon.png",
+    "provider_image_url": "https://aidapay.ng/images/panel/providers/Airtel Awuf data_11zon.png"
+  },
+  {
+    "provider_name": "MTN AWUF",
+    "provider_code": "mtn-awuf-data",
+    "min_amount": 10,
+    "max_amount": 50000,
+    "ref_commission": null,
+    "provider_info": null,
+    "agent_percent": "1.43",
+    "provider_image": "awoof (1).png",
+    "provider_image_url": "https://aidapay.ng/images/panel/providers/awoof (1).png"
+  },
+  {
+    "provider_name": "GLO",
+    "provider_code": "glo-gifting",
+    "min_amount": 10,
+    "max_amount": 150000,
+    "ref_commission": 1,
+    "provider_info": "Dial *127*0# to check data balance",
+    "agent_percent": "1.6666",
+    "provider_image": "glo-data.png",
+    "provider_image_url": "https://aidapay.ng/images/panel/providers/glo-data.png"
+  },
+  {
+    "provider_name": "Airtel",
+    "provider_code": "airtel-sme-cg",
+    "min_amount": 20,
+    "max_amount": 500000,
+    "ref_commission": null,
+    "provider_info": "Dial *140# to check data balance",
+    "agent_percent": "1.144",
+    "provider_image": "airtel-data.png",
+    "provider_image_url": "https://aidapay.ng/images/panel/providers/airtel-data.png"
+  },
+  {
+    "provider_name": "MTN",
+    "provider_code": "mtn-sme",
+    "min_amount": 10,
+    "max_amount": 50000,
+    "ref_commission": 1,
+    "provider_info": "Dial *461*4# to check data balance",
+    "agent_percent": "3.58422",
+    "provider_image": "mtn-data (1).png",
+    "provider_image_url": "https://aidapay.ng/images/panel/providers/mtn-data (1).png"
+  }
+]

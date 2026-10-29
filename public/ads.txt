@@ -1,0 +1,7 @@
+# Authorized digital sellers for kuku.com.ng
+# Replace placeholders with your real account IDs before production.
+#
+# Example Adsterra format:
+# adsterra.com, YOUR_PUBLISHER_ID, DIRECT
+#
+# Keep one seller record per line.

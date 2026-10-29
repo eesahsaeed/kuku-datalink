@@ -1,0 +1,8 @@
+# Authorized app inventory sellers for Kuku mobile apps
+# Replace placeholders with your real account IDs before production.
+#
+# Example Adsterra format:
+# adsterra.com, YOUR_PUBLISHER_ID, DIRECT
+#
+# Keep this file accessible at:
+# https://your-domain.com/app-ads.txt

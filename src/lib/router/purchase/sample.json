@@ -1,0 +1,337 @@
+{
+  "catalog": {
+    "services": {
+      "data-bundle-sme": [
+        {
+          "provider_name": "MTN SME Data",
+          "provider_code": "mtn-sme",
+          "provider_image_url": "https://aidapay.ng/images/panel/providers/mtn.png"
+        },
+        {
+          "provider_name": "MTN AWUF Data",
+          "provider_code": "mtn-awuf-data",
+          "provider_image_url": "https://aidapay.ng/images/panel/providers/mtn.png"
+        },
+        {
+          "provider_name": "Airtel SME Data",
+          "provider_code": "airtel-sme-cg",
+          "provider_image_url": "https://aidapay.ng/images/panel/providers/airtel-airtime.png"
+        },
+        {
+          "provider_name": "Airtel AWUF Data",
+          "provider_code": "airtel-awuf-data",
+          "provider_image_url": "https://aidapay.ng/images/panel/providers/airtel-airtime.png"
+        },
+        {
+          "provider_name": "GLO Gifting Data",
+          "provider_code": "glo-gifting",
+          "provider_image_url": "https://aidapay.ng/images/panel/providers/glo-airtime.png"
+        },
+        {
+          "provider_name": "GLO AWUF Data",
+          "provider_code": "gloawufdata",
+          "provider_image_url": "https://aidapay.ng/images/panel/providers/glo-airtime.png"
+        }
+      ],
+      "cable-tv-subscription": [
+        {
+          "provider_name": "DStv",
+          "provider_code": "dstv",
+          "provider_image_url": "/img/dstv-logo.png"
+        },
+        {
+          "provider_name": "GOtv",
+          "provider_code": "gotv",
+          "provider_image_url": "/img/gotv-logo.png"
+        },
+        {
+          "provider_name": "StarTimes",
+          "provider_code": "startimes",
+          "provider_image_url": "/img/startimes-logo.png"
+        }
+      ],
+      "meter-token": [
+        {
+          "provider_name": "IKEDC",
+          "provider_code": "ikedc",
+          "provider_image_url": "/img/ikedc-logo.png"
+        },
+        {
+          "provider_name": "EEDC",
+          "provider_code": "eedc",
+          "provider_image_url": "/img/eedc-logo.png"
+        },
+        {
+          "provider_name": "AEDC",
+          "provider_code": "aedc",
+          "provider_image_url": "/img/aedc-logo.png"
+        }
+      ]
+    },
+    "packagesByProvider": {
+      "mtn-sme": [
+        {
+          "package_name": "MTN 1GB Daily - AWUF",
+          "package_amount": 221.76,
+          "package_original_amount": 230,
+          "package_api_code": "PK-MTN-1GB-SmartData",
+          "provider_code": "mtn-sme"
+        },
+        {
+          "package_name": "MTN 2GB - 1 Month + 2mins Call Credit",
+          "package_amount": 1466.66,
+          "package_original_amount": 1477,
+          "package_api_code": "PK-MTN-HDPX",
+          "provider_code": "mtn-sme"
+        },
+        {
+          "package_name": "MTN 1.5GB - Weekly",
+          "package_amount": 978.1,
+          "package_original_amount": 985,
+          "package_api_code": "PK-MTN-PUZI-7DX",
+          "provider_code": "mtn-sme"
+        }
+      ],
+      "mtn-awuf-data": [
+        {
+          "package_name": "MTN 1GB Daily - AWUF",
+          "package_amount": 226.71,
+          "package_original_amount": 230,
+          "package_api_code": "PK-MTN-1GB-SmartData-AWUF",
+          "provider_code": "mtn-awuf-data"
+        },
+        {
+          "package_name": "MTN 2.5GB Daily - AWUF",
+          "package_amount": 542.13,
+          "package_original_amount": 550,
+          "package_api_code": "PK-MTN-2.5GB-SmartData-AWUF",
+          "provider_code": "mtn-awuf-data"
+        }
+      ],
+      "airtel-sme-cg": [
+        {
+          "package_name": "Airtel 1GB Social",
+          "package_amount": 296,
+          "package_original_amount": 296,
+          "package_api_code": "PK-AIRTEL-PNDD-1GB-SOCIAL",
+          "provider_code": "airtel-sme-cg"
+        },
+        {
+          "package_name": "Airtel 2GB Gifting",
+          "package_amount": 1485,
+          "package_original_amount": 1485,
+          "package_api_code": "PK-AIRTEL-PNDD-2GB-GIFTING",
+          "provider_code": "airtel-sme-cg"
+        },
+        {
+          "package_name": "Airtel 1.5GB Binge",
+          "package_amount": 595,
+          "package_original_amount": 595,
+          "package_api_code": "PK-AIRTEL-PNDD-1.5GB-BINGE",
+          "provider_code": "airtel-sme-cg"
+        }
+      ],
+      "airtel-awuf-data": [
+        {
+          "package_name": "Airtel AWUF 1.5GB Binge",
+          "package_amount": 595,
+          "package_original_amount": 595,
+          "package_api_code": "PK-AIRTEL-AWUF-1.5GB-BINGE",
+          "provider_code": "airtel-awuf-data"
+        },
+        {
+          "package_name": "Airtel AWUF PNDD",
+          "package_amount": 3020,
+          "package_original_amount": 3020,
+          "package_api_code": "PK-AIRTEL-AWUF-PNDD",
+          "provider_code": "airtel-awuf-data"
+        }
+      ],
+      "glo-gifting": [
+        {
+          "package_name": "GLO 750MB",
+          "package_amount": 230,
+          "package_original_amount": 230,
+          "package_api_code": "PK-GLO-DSEC-CS",
+          "provider_code": "glo-gifting"
+        },
+        {
+          "package_name": "GLO 2.7GB",
+          "package_amount": 1320,
+          "package_original_amount": 1320,
+          "package_api_code": "PK-GLO-MAHK-CS",
+          "provider_code": "glo-gifting"
+        }
+      ],
+      "gloawufdata": [
+        {
+          "package_name": "GLO AWUF 1.5GB",
+          "package_amount": 290,
+          "package_original_amount": 290,
+          "package_api_code": "glo-awuf-data-1.5gb",
+          "provider_code": "gloawufdata"
+        },
+        {
+          "package_name": "GLO AWUF 2.5GB",
+          "package_amount": 490,
+          "package_original_amount": 490,
+          "package_api_code": "glo-awuf-data-2.5gb",
+          "provider_code": "gloawufdata"
+        }
+      ],
+      "dstv": [
+        {
+          "package_name": "DStv Compact",
+          "package_amount": 19000,
+          "package_original_amount": 19000,
+          "package_api_code": "DSTV-COMPACT",
+          "provider_code": "dstv"
+        },
+        {
+          "package_name": "DStv Family",
+          "package_amount": 9800,
+          "package_original_amount": 9800,
+          "package_api_code": "DSTV-FAMILY",
+          "provider_code": "dstv"
+        }
+      ],
+      "gotv": [
+        {
+          "package_name": "GOtv Jinja",
+          "package_amount": 3900,
+          "package_original_amount": 3900,
+          "package_api_code": "GOTV-JINJA",
+          "provider_code": "gotv"
+        },
+        {
+          "package_name": "GOtv Max",
+          "package_amount": 7200,
+          "package_original_amount": 7200,
+          "package_api_code": "GOTV-MAX",
+          "provider_code": "gotv"
+        }
+      ],
+      "startimes": [
+        {
+          "package_name": "StarTimes Basic",
+          "package_amount": 4100,
+          "package_original_amount": 4100,
+          "package_api_code": "STARTIMES-BASIC",
+          "provider_code": "startimes"
+        },
+        {
+          "package_name": "StarTimes Smart",
+          "package_amount": 4900,
+          "package_original_amount": 4900,
+          "package_api_code": "STARTIMES-SMART",
+          "provider_code": "startimes"
+        }
+      ]
+    }
+  },
+  "validation": {
+    "success": true,
+    "verified": true,
+    "message": "Account verified successfully",
+    "customer_name": "Customer",
+    "data": {
+      "success": true,
+      "verified": true
+    }
+  },
+  "purchase": {
+    "data": {
+      "success": true,
+      "message": "success",
+      "data": {
+        "success": true,
+        "message": "Transaction Sent For Processing . N230 MTN AWUF Beneficiary : 09167077964",
+        "transaction_data": {
+          "transaction_hash": "DATA-SAMPLE-001",
+          "status": "Processing",
+          "amount": 230,
+          "recipient": "09167077964",
+          "amount_paid": 230,
+          "commission": 0,
+          "special_message": "",
+          "discount": 0
+        }
+      }
+    },
+    "airtime": {
+      "success": true,
+      "message": "success",
+      "data": {
+        "success": true,
+        "message": "Transaction Sent For Processing . N50 MTN Beneficiary : 08069068183",
+        "transaction_data": {
+          "transaction_hash": "AIR-SAMPLE-001",
+          "status": "Processing",
+          "amount": 50,
+          "recipient": "08069068183",
+          "amount_paid": 50,
+          "commission": 1.05,
+          "special_message": "",
+          "discount": 0
+        }
+      }
+    },
+    "tv": {
+      "success": true,
+      "message": "success",
+      "data": {
+        "success": true,
+        "message": "Transaction Sent For Processing . GOtv Supa Beneficiary : 01467197046",
+        "transaction_data": {
+          "transaction_hash": "TV-SAMPLE-001",
+          "status": "processing",
+          "amount": 400,
+          "commission": 100,
+          "recipient": "01467197046",
+          "amount_paid": 500,
+          "discount": 0
+        }
+      }
+    },
+    "electricity": {
+      "success": true,
+      "message": "success",
+      "data": {
+        "success": true,
+        "message": "Electricity token generated successfully",
+        "transaction_data": {
+          "transaction_hash": "ELEC-SAMPLE-001",
+          "status": "successful",
+          "amount": 2500,
+          "recipient": "12345678901",
+          "amount_paid": 2500,
+          "commission": 150,
+          "token": "12345678901234567890",
+          "token_units": 93.6,
+          "special_message": "Token: 12345678901234567890 | Units: 93.6kWh | Store this token safely.",
+          "discount": 0
+        }
+      }
+    }
+  },
+  "transaction": {
+    "success": true,
+    "data": {
+      "success": true,
+      "transaction_data": {
+        "transaction_hash": "SAMPLE-TX-HASH",
+        "status": "successful"
+      }
+    }
+  },
+  "requery": {
+    "success": true,
+    "data": {
+      "success": true,
+      "transaction_data": {
+        "transaction_hash": "SAMPLE-TX-HASH",
+        "status": "successful"
+      }
+    }
+  }
+}

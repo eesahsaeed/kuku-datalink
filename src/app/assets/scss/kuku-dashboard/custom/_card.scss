@@ -1,0 +1,892 @@
+.card {
+  background: $card-black-background;
+  border: 0;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: $box-shadow;
+
+  label {
+    color: rgba($white, 0.6);
+  }
+
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+
+  .card-body {
+    padding: 15px;
+
+    &.table-full-width {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .card-title {
+      color: $white;
+      text-transform: inherit;
+      font-weight: $font-weight-light;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-description,
+    .card-category {
+      color: rgba($white, 0.6);
+    }
+  }
+
+  .card-header {
+    &:not([data-background-color]) {
+      background-color: transparent;
+    }
+    padding: 15px 15px 0;
+    border: 0;
+    color: rgba($white, 0.8);
+
+    .card-title {
+      color: $white;
+      font-weight: 100;
+    }
+
+    .card-category {
+      color: $dark-gray;
+      margin-bottom: 5px;
+      font-weight: 300;
+    }
+  }
+
+  .map {
+    border-radius: $border-radius-sm;
+
+    &.map-big {
+      height: 420px;
+    }
+  }
+
+  &.card-white {
+    background: $white;
+
+    .card-title {
+      color: $black;
+    }
+    .card-category,
+    .stats {
+      color: $card-stats-gray;
+    }
+
+    //style for inputs
+
+    @include form-control-placeholder(rgba($black, 0.4), 1);
+    .has-danger {
+      .form-control,
+      .input-group-prepend .input-group-text {
+        border-color: $danger-states;
+      }
+    }
+
+    .input-group-prepend .input-group-text {
+      border-color: rgba($black-states, 0.2);
+      color: $black-states;
+    }
+
+    .form-control {
+      color: $black;
+      border-color: rgba($black-states, 0.2);
+      &:focus {
+        border-color: $primary;
+      }
+    }
+    label:not(.btn) {
+      color: $default;
+    }
+
+    .form-group.no-border,
+    .input-group.no-border {
+      .form-control,
+      .form-control + .input-group-prepend .input-group-text,
+      .form-control + .input-group-append .input-group-text,
+      .input-group-prepend .input-group-text,
+      .input-group-append .input-group-text {
+        background-color: $opacity-gray-3;
+        &:focus,
+        &:active,
+        &:active {
+          background-color: $opacity-gray-5;
+        }
+      }
+
+      .form-control {
+        &:focus {
+          & + .input-group-prepend .input-group-text,
+          & + .input-group-append .input-group-text {
+            background-color: $transparent-bg;
+          }
+        }
+      }
+    }
+
+    .input-group[disabled] {
+      .input-group-prepend .input-group-text,
+      .input-group-append .input-group-text {
+        background-color: $black;
+      }
+    }
+
+    .form-control[disabled],
+    .form-control[readonly],
+    fieldset[disabled] .form-control {
+      background: $light-gray;
+      border-color: rgba($black-states, 0.3);
+    }
+
+    .input-group-focus {
+      .input-group-prepend .input-group-text,
+      .input-group-append .input-group-text,
+      .form-control {
+        background-color: $white;
+        border-color: $primary;
+      }
+
+      &.no-border {
+        .input-group-prepend .input-group-text,
+        .input-group-append .input-group-text {
+          background-color: $opacity-gray-5;
+        }
+      }
+    }
+    .input-group-prepend .input-group-text {
+      border-right: none;
+    }
+
+    .input-group-append .input-group-text {
+      border-left: none;
+    }
+
+    .has-danger .form-control:focus,
+    .has-success.input-group-focus .input-group-append .input-group-text,
+    .has-success.input-group-focus .input-group-prepend .input-group-text {
+      border-color: $danger-states;
+    }
+
+    .has-success .form-control:focus,
+    .has-success.input-group-focus .input-group-append .input-group-text,
+    .has-success.input-group-focus .input-group-prepend .input-group-text {
+      border-color: darken($success, 10%);
+    }
+  }
+
+  &.card-plain {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .image {
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  label {
+    font-size: $font-size-sm;
+    margin-bottom: 5px;
+  }
+
+  .card-footer {
+    background-color: transparent;
+    border: 0;
+    padding: 15px;
+
+    .stats {
+      i {
+        margin-right: 5px;
+        position: relative;
+      }
+    }
+
+    h6 {
+      margin-bottom: 0;
+      padding: 7px 0;
+    }
+  }
+}
+
+.card-body {
+  padding: $card-spacer-y;
+}
+
+@include media-breakpoint-down(sm) {
+  .card.card-chart .card-header {
+    .btn-group-toggle .tim-icons {
+      font-size: 0.875rem;
+      top: -1px;
+    }
+  }
+}
+
+.admin-shell .card {
+  margin-bottom: 0;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.admin-shell .card .card-body {
+  padding: 1.35rem 1.45rem;
+  color: $black-states;
+}
+
+.admin-shell .card .card-header {
+  padding: 1.35rem 1.45rem 0;
+  color: $black-states;
+}
+
+.admin-shell .card .card-title {
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: $black-states;
+}
+
+.admin-shell .card .table-responsive {
+  margin-top: 0.25rem;
+}
+
+.admin-shell .user-manager-intro-card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 255, 0.96));
+  border: 1px solid rgba(59, 130, 246, 0.08);
+}
+
+.admin-shell .user-manager-intro-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb 0%, #0ea5e9 52%, #22c55e 100%);
+}
+
+.admin-shell .user-manager-intro-card .card-body {
+  padding: 1.25rem 1.45rem 1.45rem;
+}
+
+.admin-shell .user-manager-stat-card {
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.admin-shell .user-manager-stat-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--stat-accent-start), var(--stat-accent-end));
+}
+
+.admin-shell .user-manager-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+.admin-shell .user-manager-stat-card--customers {
+  --stat-accent-start: #2563eb;
+  --stat-accent-end: #4f46e5;
+}
+
+.admin-shell .user-manager-stat-card--staff {
+  --stat-accent-start: #0ea5e9;
+  --stat-accent-end: #22c55e;
+}
+
+.admin-shell .user-manager-stat-card--admins {
+  --stat-accent-start: #ef4444;
+  --stat-accent-end: #f97316;
+}
+
+.admin-shell .user-manager-stat-card--dashboard {
+  --stat-accent-start: #8b5cf6;
+  --stat-accent-end: #3b82f6;
+}
+
+.admin-shell .user-manager-stat-card--active {
+  --stat-accent-start: #22c55e;
+  --stat-accent-end: #10b981;
+}
+
+.admin-shell .user-manager-stat-card--blocked {
+  --stat-accent-start: #f59e0b;
+  --stat-accent-end: #ef4444;
+}
+
+.admin-shell .user-manager-stat-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  min-height: 100%;
+}
+
+.admin-shell .user-manager-stat-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+
+.admin-shell .user-manager-stat-card--staff .user-manager-stat-icon {
+  background: rgba(14, 165, 233, 0.1);
+  color: #0ea5e9;
+}
+
+.admin-shell .user-manager-stat-card--admins .user-manager-stat-icon {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.admin-shell .user-manager-stat-card--dashboard .user-manager-stat-icon {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+}
+
+.admin-shell .user-manager-stat-card--active .user-manager-stat-icon {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+}
+
+.admin-shell .user-manager-stat-card--blocked .user-manager-stat-icon {
+  background: rgba(245, 158, 11, 0.12);
+  color: #f59e0b;
+}
+
+.admin-shell .user-manager-stat-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.admin-shell .user-manager-stat-value {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+  color: $black-states;
+}
+
+.admin-shell .user-manager-stat-caption {
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: #64748b;
+}
+
+.admin-shell .user-manager-user-card {
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.admin-shell .user-manager-user-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #0ea5e9 0%, #2563eb 52%, #22c55e 100%);
+}
+
+.admin-shell .user-manager-user-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+}
+
+.admin-shell .user-manager-user-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-shell .user-manager-user-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.admin-shell .user-manager-user-card-identity {
+  min-width: 0;
+}
+
+.admin-shell .user-manager-user-card-name {
+  font-size: 1.08rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: $black-states;
+}
+
+.admin-shell .user-manager-user-card-email {
+  font-size: 0.9rem;
+  word-break: break-word;
+  color: #64748b;
+}
+
+.admin-shell .user-manager-user-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.admin-shell .user-manager-user-card-meta {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.96), rgba(255, 255, 255, 0.98));
+  border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.admin-shell .user-manager-user-card-meta-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.85rem;
+}
+
+.admin-shell .user-manager-user-card-meta-row span {
+  color: #64748b;
+  font-size: 0.84rem;
+}
+
+.admin-shell .user-manager-user-card-meta-row strong {
+  color: $black-states;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.admin-shell .user-manager-user-card-alert {
+  border-radius: 16px;
+}
+
+.admin-shell .user-manager-user-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.admin-shell .user-manager-user-card-actions .btn {
+  border-radius: 12px;
+  min-height: 38px;
+}
+
+.admin-shell .user-overview-summary-card,
+.admin-shell .user-overview-message-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.admin-shell .user-overview-summary-card::before,
+.admin-shell .user-overview-message-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb 0%, #0ea5e9 52%, #22c55e 100%);
+}
+
+.admin-shell .user-overview-summary-card .card-body,
+.admin-shell .user-overview-message-card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-shell .user-overview-mini-card {
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.95), rgba(255, 255, 255, 0.98));
+}
+
+.admin-shell .user-overview-transactions-card {
+  padding-top: 0.25rem;
+}
+
+.admin-shell .user-overview-transactions-card .table-responsive {
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  background: #ffffff;
+}
+
+.admin-shell .user-overview-transactions-card table {
+  margin-bottom: 0;
+}
+
+.admin-shell .user-overview-transactions-card thead th {
+  background: #f8f9fe;
+  color: $black-states;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.admin-shell .user-overview-transactions-card tbody tr:hover {
+  background: rgba(37, 99, 235, 0.035);
+}
+
+.admin-shell .table-responsive {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell table.table {
+  margin-bottom: 0;
+}
+
+.admin-shell table.table thead th {
+  background: #f8fafc;
+  color: $black-states;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+  padding: 1rem 1.1rem;
+}
+
+.admin-shell table.table tbody td {
+  padding: 1rem 1.1rem;
+  vertical-align: middle;
+  color: $black-states;
+}
+
+.admin-shell table.table tbody tr {
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.admin-shell table.table tbody tr:hover {
+  background: rgba(37, 99, 235, 0.035);
+}
+
+.admin-shell .user-manager-filter-panel {
+  position: relative;
+  padding: 1.25rem 1.35rem 1.35rem;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.98), rgba(255, 255, 255, 0.98));
+  border: 1px solid rgba(59, 130, 246, 0.08);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .user-manager-filter-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.admin-shell .user-manager-filter-kicker {
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.admin-shell .user-manager-filter-subtitle {
+  max-width: 58ch;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.admin-shell .user-manager-filter-grid {
+  align-items: end;
+}
+
+.admin-shell .user-manager-filter-grid .form-group {
+  margin-bottom: 0;
+}
+
+.admin-shell .user-manager-filter-field > label,
+.admin-shell .user-manager-filter-field .ra-label {
+  margin-bottom: 0.45rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+.admin-shell .user-manager-filter-input-group {
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.admin-shell .user-manager-filter-input-addon {
+  min-height: 48px;
+  border-color: transparent;
+  background: linear-gradient(180deg, rgba(248, 250, 252, 0.96), rgba(241, 245, 249, 0.96));
+  color: #64748b;
+}
+
+.admin-shell .user-manager-filter-input,
+.admin-shell .user-manager-filter-select {
+  min-height: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: #ffffff;
+  box-shadow: none;
+  color: $black-states;
+}
+
+.admin-shell .user-manager-filter-input:focus,
+.admin-shell .user-manager-filter-select:focus {
+  border-color: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.08);
+}
+
+.admin-shell .user-manager-filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.65rem;
+  width: 100%;
+}
+
+.admin-shell .user-manager-filter-actions .btn {
+  min-height: 48px;
+  border-radius: 14px;
+  padding-inline: 1rem;
+}
+
+.admin-shell .user-manager-list-card {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .transactions-workspace-card,
+.admin-shell .transactions-summary-card,
+.admin-shell .transactions-detail-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.admin-shell .transactions-workspace-card {
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(249, 250, 252, 0.98));
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .transactions-summary-card {
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 255, 0.96));
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.07);
+}
+
+.admin-shell .transactions-summary-card::before,
+.admin-shell .transactions-detail-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb 0%, #0ea5e9 55%, #22c55e 100%);
+}
+
+.admin-shell .transactions-summary-card .card-body,
+.admin-shell .transactions-detail-card .card-body {
+  position: relative;
+  z-index: 1;
+}
+
+.admin-shell .transactions-summary-card--success::before {
+  background: linear-gradient(90deg, #16a34a 0%, #22c55e 100%);
+}
+
+.admin-shell .transactions-summary-card--warning::before {
+  background: linear-gradient(90deg, #f59e0b 0%, #f97316 100%);
+}
+
+.admin-shell .transactions-summary-card--danger::before {
+  background: linear-gradient(90deg, #dc2626 0%, #ef4444 100%);
+}
+
+.admin-shell .transactions-summary-card--info::before {
+  background: linear-gradient(90deg, #0ea5e9 0%, #2563eb 100%);
+}
+
+.admin-shell .transactions-summary-card--dark::before {
+  background: linear-gradient(90deg, #0f172a 0%, #334155 100%);
+}
+
+.admin-shell .transactions-filter-panel,
+.admin-shell .transactions-pagination-toolbar,
+.admin-shell .transactions-detail-card,
+.admin-shell .transactions-detail-mini-card {
+  border-radius: 24px;
+}
+
+.admin-shell .transactions-filter-panel {
+  padding: 1.2rem 1.25rem 1.35rem;
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.98), rgba(255, 255, 255, 0.98));
+  border: 1px solid rgba(59, 130, 246, 0.08);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.07);
+}
+
+.admin-shell .transactions-filter-grid .form-group {
+  margin-bottom: 0;
+}
+
+.admin-shell .transactions-pagination-toolbar {
+  padding: 0.9rem 1rem;
+  background: rgba(248, 250, 252, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.admin-shell .transactions-table-card,
+.admin-shell .transactions-detail-table-card {
+  border-radius: 22px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  background: #ffffff;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .transactions-detail-card {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .transactions-detail-mini-card {
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(248, 250, 255, 0.96), rgba(255, 255, 255, 0.98));
+}
+
+.admin-shell .admin-complains-page .chat-list-header,
+.admin-shell .admin-ticket-page .support-chat-topline,
+.admin-shell .admin-ticket-page .support-chat-shell {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .admin-complains-page .chat-list-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.2rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.admin-shell .admin-complains-page .chat-list-header h4 {
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.01em;
+  color: $black-states;
+}
+
+.admin-shell .admin-complains-page .chat-list-header p {
+  color: #64748b !important;
+}
+
+.admin-shell .admin-complains-page .chat-list-shell {
+  padding: 1rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .admin-complains-page .chat-list-collection {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-shell .admin-ticket-page {
+  max-width: 1660px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.admin-shell .admin-ticket-page .support-ticket-shell {
+  overflow: hidden;
+}
+
+.admin-shell .admin-ticket-page .support-chat-shell {
+  padding: 1rem;
+  background: transparent;
+}
+
+.admin-shell .admin-ticket-page .support-chat-topline {
+  padding: 1.2rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.admin-shell .admin-ticket-page .support-chat-topline-head,
+.admin-shell .admin-ticket-page .support-chat-title-inline,
+.admin-shell .admin-ticket-page .support-chat-meta-strip {
+  gap: 0.75rem;
+}
+
+.admin-shell .admin-ticket-page .support-chat-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.admin-shell .admin-ticket-page .support-chat-outline-badge {
+  border-radius: 999px;
+}
+
+.admin-shell .admin-ticket-page .support-chat-container {
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.08);
+}
+
+.admin-shell .admin-ticket-page .chat-container {
+  min-height: calc(100vh - 290px);
+}
